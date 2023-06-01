@@ -40,7 +40,7 @@
   
   .container.contact-page,
   .container.about-page,
-  .container.portfolio-page {
+  .container.skills-page {
     
       h1 {
         font-size: 53px;
@@ -79,10 +79,10 @@
       }
   
       p {
-        font-size: 13px;
+        font-size: 16px;
         color: #fff;
-        font-family: sans-serif;
-        font-weight: 300;
+        font-family: Kanit;
+        font-weight: 100;
         max-width: fit-content;
         animation: pulse 1s;
         &:nth-of-type(1) {
@@ -129,7 +129,7 @@
   
       &.contact-page,
       &.about-page,
-      &.portfolio-page {
+      &.skills-page {
         .text-zone {
           position: initial;
           transform: none;
