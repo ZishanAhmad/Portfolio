@@ -1,0 +1,36 @@
+.skillset{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-top: 10%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.myskills{
+        font-size: 50px;
+        font-family: 'Coolvetica';
+        color: #ffd700;
+        font-weight: 400;
+        margin-top: 0;
+        margin-left: 1.5%;
+        position: relative;
+        margin-bottom: 40px;
+        left: -10px;
+        animation-delay:1s;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    &__skill {
+      padding: 1rem 2rem;
+      margin-bottom: 1.5rem;
+      margin-right: 1.5rem;
+      font-size: 1.6rem;
+      background: rgba(white,1);
+      border-radius: 3px;
+      font-weight: 600;
+      color: #ffd700;
+    }
+  }
