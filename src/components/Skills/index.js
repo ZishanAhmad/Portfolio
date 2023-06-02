@@ -1,15 +1,6 @@
-import { useEffect, useState } from 'react'
-import {
-  faNode,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
+import { useEffect, useState } from 'react' 
 import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import AnimatedLetters from '../AnimatedLetters' 
 import './index.scss'
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
