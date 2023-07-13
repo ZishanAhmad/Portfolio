@@ -117,11 +117,11 @@
   @media screen and (max-width: 1200px) {
     .tags{
         display: none;
-    }
+    } 
     .page {
       position: initial;
     }
-  
+    
     .container {
       position: initial;
       height: auto;
@@ -133,26 +133,28 @@
         .text-zone {
           position: initial;
           transform: none;
-          width: 100%;
-          display: block;
+          width: 50%;
+          display: grid;
           padding: 20px;
           box-sizing: border-box;
         }
       }
   
-      &.portfolio-page {
+      &.skills-page {
+        position: absolute;
+        display: grid;
         width: 100%;
-        padding: 20px;
+        padding-top: 20px;
         box-sizing: border-box;
   
         h1.page-title {
           margin-left: 20px;
           margin-top: 20px;
-        }
-  
-        .image-box {
-          height: 200px;
-          max-width: calc(50% - 10px);
+        } 
+        .skillset {  
+           width:100%;
+           padding-top: 250%;
+           padding-left: 20%; 
         }
       }
     }

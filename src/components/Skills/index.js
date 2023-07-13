@@ -22,25 +22,25 @@ const Skills = () => {
               idx={15}
             />
           </h1>
-          <p>I am well versed with competetive programming and practiced over 1000+ problems on codeforces,codechef,atcoder,etc.</p> 
+          <p>I am well versed with competetive programming and practiced over 1000 problems on codeforces,codechef,etc.</p> 
           <p>I possess a strong command of frontend technologies such as HTML, CSS, JavaScript, and React.js, enabling me to create engaging and dynamic web experiences.</p>
           <p>I have a solid understanding of backend technologies, including Node.js, Express.js, MySQL and MongoDB, empowering me to develop robust and efficient server-side solutions for your web applications.</p>
           </div>
           <div className='skillset'>
-          <h2 class='myskills'>
+          <div className='myskills'>
             My Skills
-          </h2>
-            <div class="skills">
-              <div class="skills__skill">CP</div>
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React.js</div>
-              <div class="skills__skill">Node.js</div>
-              <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Express.js</div>
-              <div class="skills__skill">MySQL</div>
-              <div class="skills__skill">MongoDB</div> 
+          </div>
+            <div className="skills">
+              <div className="skills__skill">CP</div>
+              <div className="skills__skill">HTML</div>
+              <div className="skills__skill">CSS</div>
+              <div className="skills__skill">JavaScript</div>
+              <div className="skills__skill">React.js</div>
+              <div className="skills__skill">Node.js</div>
+              <div className="skills__skill">GIT</div>
+              <div className="skills__skill">Express.js</div>
+              <div className="skills__skill">MySQL</div>
+              <div className="skills__skill">MongoDB</div> 
             </div>
           </div>
       </div>
